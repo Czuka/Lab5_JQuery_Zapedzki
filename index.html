@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src = "selectors01.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Nagłówek</h1>
+      <p id="p_01" class="cp_01">Pierwszy paragraf</p>
+      <p class="cp_01">Drugi paragraf</p>
+      <input type="button" value="Naciśnij, aby ukryć paragrafy 1" id="button_01" />
+      <p id="p_03">To jest trzeci paragraf</p>
+      <input type="button" value="Naciśnij, aby ukryć paragraf 3" id="button_02" />
+      <input type="button" value="Naciśnij, aby ukryć elementy klasy cp_01" id="button_03" />
+      <input type="button" value="Naciśnij aby pokazać wszystkie paragrafy" id="button_04"/>
+    </div>
+    <br><br><br>
+    <input type="button" value="Pokaż/ukryj memy" id="button_toogle_memy" />
+    <div class="memy">
+        <h1>Memy</h1>
+        <ol>
+            <li>Doge</li>
+            <li>Pepe</li>
+            <li>Koteł</li>
+            <li>Makłowicz</li>
+        </ol>
+        <input type="button" value="Ukryj nieparzyste elementy" id="li_b_01" />
+        <input type="button" value="Ukryj parzyste elementy" id="li_b_04" />
+        <input type="button" value="Ukryj Doge" id="li_b_02" />
+        <input type="button" value="Pokaż wszystko" id="li_b_03" />
+    </div>
+  </body>
+</html>

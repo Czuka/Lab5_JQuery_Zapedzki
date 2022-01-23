@@ -1,0 +1,50 @@
+#rectangle {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+}
+
+#triangle {
+    margin: 25px;
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid yellow;
+}
+
+#circle {
+    margin: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: blue ;
+    border-radius: 50%;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons{
+    margin-top: 10px;
+}
+
+#text {
+    background-color: gainsboro;
+    text-align: justify;
+    border: 10px  solid green;
+    padding: 0 10px 0 10px;
+    margin-top: 15px;
+}
+
+#rect_red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
